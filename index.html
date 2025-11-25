@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="background">
+      <div id="first">
+        <div id="text">Tip Calculator</div>
+        <div id="tape"></div>
+      </div>
+      <div id="second">
+        <div id="green">
+          <div id="container">
+            <div id="bill">Bill</div>
+            <div id="combined">
+              <input type="number" id="input1" />
+              <div id="amount">₮</div>
+            </div>
+            <div id="select">Select Tip %</div>
+            <div id="options">
+              <div id="options1">
+                <button id="one" onclick="calculateTip(5)">5%</button>
+                <button id="two" onclick="calculateTip(10)">10%</button>
+                <button id="three" onclick="calculateTip(15)">15%</button>
+                <button id="four" onclick="calculateTip(25)">25%</button>
+              </div>
+              <div id="options2">
+                <button id="one1" onclick="calculateTip(35)">35%</button>
+                <button id="two1" onclick="calculateTip(50)">50%</button>
+                <button id="three1" onclick="calculateTip(65)">65%</button>
+                <button id="four1" onclick="calculateTip(80)">80%</button>
+              </div>
+            </div>
+            <div id="result">0.00</div>
+            <button id="reset" onclick="reset()">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

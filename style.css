@@ -1,0 +1,269 @@
+#background {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(88, 237, 145),
+    rgb(19, 234, 241)
+  );
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+#first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#text {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 90px;
+  font-weight: 650;
+}
+#tape {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  width: 400px;
+  height: 100px;
+  transform: translateX(-50%) rotate(8deg);
+  border-radius: 12px;
+  backdrop-filter: blur(2px);
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+#second {
+  background-color: white;
+  height: 330px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+#green {
+  background-color: rgb(41, 146, 124);
+  height: 295px;
+  width: 370px;
+  border-radius: 10px;
+}
+#container {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 7px;
+  position: relative;
+  top: 10px;
+  margin: 5px;
+}
+#bill {
+  color: #01464b;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+#amount {
+  position: absolute;
+  left: 10px;
+}
+#combined {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#input1 {
+  padding-left: 30px;
+  width: 100%;
+  border: none;
+  height: 35px;
+  border-radius: 4px;
+  outline: none;
+}
+#select {
+  color: #01464b;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+#options1 {
+  display: flex;
+  font-family: "Inter", sans-serif;
+
+  position: relative;
+  height: 35px;
+  justify-content: center;
+  justify-content: space-between;
+}
+#one {
+  background-color: white;
+  width: 70px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #01464b;
+  border: none;
+  font-size: 16px;
+}
+#two {
+  background-color: white;
+  width: 70px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #01464b;
+  border: none;
+  font-size: 16px;
+}
+#three {
+  background-color: white;
+  width: 70px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #01464b;
+  border: none;
+  font-size: 16px;
+}
+#four {
+  background-color: white;
+  width: 70px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #01464b;
+  border: none;
+  font-size: 16px;
+}
+#options2 {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  height: 35px;
+
+  position: relative;
+  justify-content: center;
+  justify-content: space-between;
+}
+#one1 {
+  background-color: white;
+  width: 70px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #01464b;
+  border: none;
+  font-size: 16px;
+}
+#two1 {
+  background-color: white;
+  width: 70px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #01464b;
+  border: none;
+  font-size: 16px;
+}
+#three1 {
+  background-color: white;
+  width: 70px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #01464b;
+  border: none;
+  font-size: 16px;
+}
+#four1 {
+  background-color: white;
+  width: 70px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #01464b;
+  border: none;
+  font-size: 16px;
+}
+#result {
+  font-family: "Inter", sans-serif;
+  color: #01464b;
+}
+#reset {
+  font-family: "Inter", sans-serif;
+  background-color: white;
+  border-radius: 3px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+#one:hover {
+  background-color: rgb(130, 230, 130);
+  opacity: 0.8;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#two:hover {
+  background-color: rgb(130, 230, 130);
+  opacity: 0.8;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#three:hover {
+  background-color: rgb(130, 230, 130);
+  opacity: 0.8;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#four:hover {
+  background-color: rgb(130, 230, 130);
+  opacity: 0.8;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#one1:hover {
+  background-color: rgb(130, 230, 130);
+  opacity: 0.8;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#two1:hover {
+  background-color: rgb(130, 230, 130);
+  opacity: 0.8;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#three1:hover {
+  background-color: rgb(130, 230, 130);
+  opacity: 0.8;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#four1:hover {
+  background-color: rgb(130, 230, 130);
+  opacity: 0.8;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#reset:hover {
+  cursor: pointer;
+}
+#options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
