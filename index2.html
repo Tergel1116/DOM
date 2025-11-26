@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style2.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="container1">
+        <div id="numbers">
+          <div id="input"></div>
+          <div id="result">0</div>
+        </div>
+        <div id="buttons">
+          <div id="first">
+            <button id="first-one" class="one">
+              <div id="remove" onclick="removeLast()">⌫</div>
+            </button>
+            <button id="first-two" class="one" onclick="clearDisplay()">
+              AC
+            </button>
+            <button id="first-three" class="one" onclick="appendToDisplay('%')">
+              %
+            </button>
+            <button id="first-four" class="one" onclick="appendToDisplay('÷')">
+              ÷
+            </button>
+          </div>
+          <div id="second">
+            <button id="second-one" class="one" onclick="appendToDisplay('7')">
+              7
+            </button>
+            <button id="second-two" class="one" onclick="appendToDisplay('8')">
+              8
+            </button>
+            <button
+              id="second-three"
+              class="one"
+              onclick="appendToDisplay('9')"
+            >
+              9
+            </button>
+            <button id="second-four" class="one" onclick="appendToDisplay('×')">
+              ×
+            </button>
+          </div>
+          <div id="third">
+            <button id="third-one" class="one" onclick="appendToDisplay('4')">
+              4
+            </button>
+            <button id="third-two" class="one" onclick="appendToDisplay('5')">
+              5
+            </button>
+            <button id="third-three" class="one" onclick="appendToDisplay('6')">
+              6
+            </button>
+            <button id="third-four" class="one" onclick="appendToDisplay('−')">
+              −
+            </button>
+          </div>
+          <div id="fourth">
+            <button id="fourth-one" class="one" onclick="appendToDisplay('1')">
+              1
+            </button>
+            <button id="fourth-two" class="one" onclick="appendToDisplay('2')">
+              2
+            </button>
+            <button
+              id="fourth-three"
+              class="one"
+              onclick="appendToDisplay('3')"
+            >
+              3
+            </button>
+            <button id="fourth-four" class="one" onclick="appendToDisplay('+')">
+              +
+            </button>
+          </div>
+          <div id="fifth">
+            <button id="fifth-one" class="one" onclick="reverse('+/-')">
+              +/-
+            </button>
+            <button id="fifth-two" class="one" onclick="appendToDisplay('0')">
+              0
+            </button>
+            <button id="fifth-three" class="one" onclick="appendToDisplay('.')">
+              .
+            </button>
+            <button id="fifth-four" class="one" onclick="calculate()">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index2.js"></script>
+  </body>
+</html>

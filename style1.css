@@ -20,6 +20,25 @@
   display: flex;
   gap: 20px;
 }
+button.active {
+  background-color: white;
+}
+
+button.disabled {
+  opacity: 0.3;
+  color: gray;
+}
+button.active:hover {
+  background-color: rgb(218, 105, 189);
+  transition: all 0.2s ease-in;
+  color: white;
+}
+button.disabled:hover {
+  background-color: rgb(218, 105, 189);
+  transition: all 0.2s ease-in;
+  color: white;
+  opacity: 1;
+}
 #start {
 }
 #stop {
