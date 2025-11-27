@@ -9,9 +9,9 @@ function clearDisplay() {
 }
 
 function calculate() {
-  //   try {
-  //     display.value = eval(display.value);
-  //   } catch (error) {
-  //     display.value = display.value;
-  //   }
+  try {
+    display.innerText = eval(display.innerText);
+  } catch (error) {
+    display.innerText = display.innerText;
+  }
 }

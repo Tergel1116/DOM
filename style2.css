@@ -6,15 +6,15 @@
   align-items: center;
 }
 #container1 {
-  height: 2900px;
-  width: 1830px;
+  height: 1100px;
+  width: 600px;
   background-color: black;
   margin-top: 100px;
   border-radius: 100px;
 }
 #numbers {
   height: 30%;
-  width: 1830px;
+  width: 600px;
   position: relative;
   top: 40px;
   display: flex;
@@ -26,7 +26,7 @@
 #input {
   height: 300px;
   width: 100%;
-  font-size: 300px;
+  font-size: 70px;
   color: gray;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -39,7 +39,7 @@
 #result {
   height: 500px;
   width: 100%;
-  font-size: 500px;
+  font-size: 150px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
@@ -64,11 +64,9 @@
 }
 #first-one {
   background-color: gray;
-  font-size: 250px;
+  font-size: 50px;
 }
 #remove {
-  position: relative;
-  bottom: 25px;
   color: white;
 }
 /* #icon {
@@ -77,26 +75,26 @@
 } */
 #first-two {
   background-color: gray;
-  font-size: 200px;
+  font-size: 50px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 #first-three {
   background-color: gray;
-  font-size: 200px;
+  font-size: 50px;
   color: white;
 }
 #first-four {
   background-color: orange;
-  font-size: 300px;
+  font-size: 50px;
   color: white;
 }
 .one {
-  height: 370px;
-  width: 370px;
+  height: 130px;
+  width: 130px;
   border-radius: 9999px;
   border: none;
-  font-size: 200px;
+  font-size: 50px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -115,7 +113,7 @@
 }
 #second-four {
   background-color: orange;
-  font-size: 300px;
+  font-size: 50px;
   color: white;
 }
 #third {
@@ -133,7 +131,7 @@
 }
 #third-four {
   background-color: orange;
-  font-size: 300px;
+  font-size: 50px;
   color: white;
 }
 #fourth {
@@ -151,7 +149,7 @@
 }
 #fourth-four {
   background-color: orange;
-  font-size: 300px;
+  font-size: 50px;
   color: white;
 }
 #fifth {
@@ -169,6 +167,6 @@
 }
 #fifth-four {
   background-color: orange;
-  font-size: 300px;
+  font-size: 50px;
   color: white;
 }
